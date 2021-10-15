@@ -1,0 +1,21 @@
+T058	Healthcare activity
+T062	Research activity
+T037	Injury or Poisoning
+T038	Biologic Function
+T005	Virus
+T007	Bacterium
+T204	Eukaryote
+T017	Anotomical structure
+T074	Medical device
+T031	Body substance
+T103	Chemical
+T168	Food
+T201	Clinical Attribute
+T033	Finding
+T082	Spatial Concept
+T022	Body System
+T091	Biomedical occupation or discipline
+T092	Organization
+T097	Professional or occupational group
+T098	Population group
+T170	Intellectual product

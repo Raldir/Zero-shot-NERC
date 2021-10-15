@@ -1,0 +1,12 @@
+data/MedMentions/
+data/OntoNotes_5.0_NER_BIO/
+*__pycache__*
+data/entity_descriptions/MedMentions/umls_custom03_negative.txt
+data/entity_descriptions/OntoNotes/annotation_guidelines_negative_old.txt
+data/entity_descriptions/OntoNotes/annotation_guidelines.txt
+data/entity_descriptions/OntoNotes/annotation_guidelines_negative.txt
+data/entity_descriptions/MedMentions/umls.txt
+data/entity_descriptions/Medmentions/umls_negative.txt
+data/entity_descriptions/MedMentions/metathesaurus.txt
+data/entity_descriptions/MedMentions/metathesaurus_negative.txt
+dumped/

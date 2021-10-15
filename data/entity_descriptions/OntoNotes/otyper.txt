@@ -1,0 +1,18 @@
+PERSON	Person name
+NORP	Nationality, Other, Religion, Political
+FAC	Facility
+ORG	Organization
+GPE	Geographical, Social, Political Entity
+LOC	Location
+PRODUCT	Product
+DATE	Date
+TIME	Time
+PERCENT	Percent
+MONEY	Money
+QUANTITY	Quantity
+ORDINAL	Ordinal
+CARDINAL	Cardinal
+EVENT	Event
+WORK_OF_ART	Work of art
+LAW	Law
+LANGUAGE	Language

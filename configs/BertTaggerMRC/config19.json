@@ -1,0 +1,41 @@
+{
+  "mode": "tagger",
+  "dataset": "ontonotes",
+  "input_path": "../data/OntoNotes_5.0_NER_BIO/conll-ontonotes-paper-wo-nt-zero-shot",
+  "checkpoint": "100",
+  "include_testing": false,
+  "continue_training": false,
+  "evaluate_during_training": true,
+  "limit": null,
+
+  "overwrite_dumped": false,
+  "entity_descriptions_mode": "wordnet",
+  "max_sequence_length": 400,
+  "max_description_length": 250,
+  "mask_entity": false,
+  "mask_entity_partially": false,
+  "mask_probability": 0.7,
+  "scheduler": "linear_scheduler",
+
+  "add_iob": false,
+  "only_keep_relevant_classes": false,
+
+
+  "model": "transformer",
+  "model_type" : "BertTaggerMRC",
+  "early_stopping": true,
+  "per_gpu_train_batch_size": 20,
+  "per_gpu_eval_batch_size": 10,
+  "linear_dropout": 0.5,
+  "gradient_accumulation_steps": 1,
+  "weight_decay": 0.0,
+  "adam_epsilon": 1e-8,
+  "max_grad_norm": 1.0,
+  "learning_rate": 2e-6,
+  "num_train_epochs": 5,
+  "warmup_steps": 0,
+  "logging_steps": 250,
+  "no_cuda": false,
+  "seed": 42,
+  "local_rank": -1
+}
