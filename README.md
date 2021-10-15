@@ -34,7 +34,7 @@ There are three SMXM models for the full NERC task: `BertTaggerMultiClassDescrip
 Example command for OntoNotes:
 
 ```
-python3.7 run.py --config_mode BertTaggerMultiClass --overwrites [mode:tagger_multiclass_filtered_classes,entity_descriptions_mode:annotation_guidelines,per_gpu_train_batch_size:8] --config_files [config03]
+python3.7 run.py --config_mode BertTaggerMultiClass --overwrites [mode:tagger_multiclass_filtered_classes,entity_descriptions_mode:annotation_guidelines,per_gpu_train_batch_size:7] --config_files [config03]
 ```
 
 ### BEM
