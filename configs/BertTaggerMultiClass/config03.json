@@ -33,6 +33,6 @@
   "warmup_steps": 0,
   "logging_steps":250,
   "no_cuda": false,
-  "seed": 23,
+  "seed": 11,
   "local_rank": -1
 }
