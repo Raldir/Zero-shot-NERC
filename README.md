@@ -37,6 +37,12 @@ Example command for OntoNotes:
 python3.7 run.py --config_mode BertTaggerMultiClass --overwrites [mode:tagger_multiclass_filtered_classes,entity_descriptions_mode:annotation_guidelines,per_gpu_train_batch_size:7] --config_files [config03]
 ```
 
+The pre-trained SMXM Model for OntoNotes can be downloaded [here]( https://drive.google.com/file/d/1PGEyBsuc6n085j9kZ5TtkAV7hC5mggdd/view?usp=sharing). To run the model in inference on the test data call:
+
+```
+python3.7 test.py --split conll-2012-test --mode tagger_multiclass_filtered_classes --model transformer --dataset ontonotes --output_dir ../dumpe/BertTaggerMultiClass_config03_mode_tagger_multiclass_filtered_classes__entity_descriptions_mode_annotation_guidelines__per_gpu_train_batch_size_7/ --entity_descriptions_mode annotation_guidelines --max_sequence_length 300 --max_description_length 150 --mask_entity_partially --mask_probability 0.7 --model_type BertTaggerMultiClass --checkpoint checkpoin
+```
+
 ### BEM
 
 To run this baseline, it is required to first fine-tune a BERT model on SNLI. This can be done easily using scripts found in huggingface's repository. The path to that model needs to be set in `models/transformers_ner`.
