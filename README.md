@@ -31,7 +31,7 @@ The scripts for converting both `Medmentions` and `Ontonotes` to their zero-shot
 ### SMXM
 
 There are three SMXM models for the full NERC task: `BertTaggerMultiClassDescription` (correpsonds to approach i 'Description-based'), `BertTaggerMultiClassIndependent` (corresponds to approach 'Independent'), and `BertTaggerMultiClass` (corresponds to approach 'class-aware').
-Example command for OntoNotes:
+Example command for both training and running on OntoNotes:
 
 ```
 python3.7 run.py --config_mode BertTaggerMultiClass --overwrites [mode:tagger_multiclass_filtered_classes,entity_descriptions_mode:annotation_guidelines,per_gpu_train_batch_size:7] --config_files [config03]
